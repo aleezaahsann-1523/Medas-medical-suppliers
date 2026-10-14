@@ -1,0 +1,6 @@
+{
+  "name": "Medas Medical Suppliers",
+  "description": "Importer and wholesale supplier of diagnostic and veterinary ultrasound machines in Lahore, Pakistan, offering brand-new ultrasound systems, wholesale pricing, and sales & service support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
