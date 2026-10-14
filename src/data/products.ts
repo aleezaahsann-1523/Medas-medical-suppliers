@@ -1,3 +1,5 @@
+import HERO_BANNER from '../assets/brand/Banner.png';
+import ABOUT_PHOTO from '../assets/brand/about-medical-equipment.jpg';
 import { FeatureGroup, VOLTA_FEATURE_GROUPS, VOLTA_KEY_HIGHLIGHTS, VSONIC_FEATURE_GROUPS, VSONIC_KEY_HIGHLIGHTS } from './voltaFeatures';
 import IMG_VOLTA_NOTEPAD_345 from '../assets/products/volta-notepad-345.jpeg';
 import IMG_VOLTA_VSONIC_295 from '../assets/products/volta-vsonic-295.jpeg';
@@ -64,8 +66,8 @@ const IMG_VET = '/src/assets/images/product_vet_ultrasound_1791666265156.jpg';
 const IMG_SHOWROOM = '/src/assets/images/about_medical_supply_1791666217653.jpg';
 const IMG_CLINIC = '/src/assets/images/hero_ultrasound_clinic_1791666200123.jpg';
 
-export const HERO_IMAGE = IMG_CLINIC;
-export const ABOUT_IMAGE = IMG_SHOWROOM;
+export const HERO_IMAGE = HERO_BANNER;
+export const ABOUT_IMAGE = ABOUT_PHOTO;
 export const CONTACT_IMAGE = IMG_TROLLEY;
 
 export const PRODUCTS_CATALOGUE: Product[] = [

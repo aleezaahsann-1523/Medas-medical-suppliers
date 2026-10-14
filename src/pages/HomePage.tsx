@@ -63,28 +63,29 @@ export const HomePage: React.FC<HomePageProps> = ({
       >
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-[70%_center] lg:bg-right bg-no-repeat"
           style={{ backgroundImage: `url(${HERO_IMAGE})` }}
           role="img"
           aria-label="Modern diagnostic ultrasound machine in a clinical examination room"
         />
         {/* Semi-transparent deep navy/black overlay ensuring strong contrast while keeping background visible */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0B1F3A]/80 via-[#0B1F3A]/75 to-[#0B1F3A]/88" />
+        <div className="absolute inset-0 bg-[#0B1F3A]/75 lg:bg-transparent lg:bg-gradient-to-r lg:from-[#0B1F3A]/90 lg:via-[#0B1F3A]/70 lg:to-[#0B1F3A]/5" />
 
         {/* Centered Hero Content */}
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 text-center text-white">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 text-center lg:text-left text-white">
+          <div className="lg:max-w-2xl">
           <p className="text-xs sm:text-sm font-bold tracking-[0.14em] text-[#EAF3FF] mb-4">
             MEDAS MEDICAL SUPPLIERS
           </p>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12] mb-6">
             Reliable Ultrasound Machines at Competitive Wholesale Prices
           </h1>
-          <p className="text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed mb-9">
+          <p className="text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl mx-auto lg:mx-0 leading-relaxed mb-9">
             We import and supply ultrasound machines, including brand-new models from China, with competitive wholesale pricing and support for product selection, sales, and service inquiries.
           </p>
 
           {/* Exactly Two Primary Hero Actions */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <button
               type="button"
               onClick={onNavigateAllProducts}
@@ -100,6 +101,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             >
               Contact Us
             </a>
+          </div>
           </div>
         </div>
       </section>
