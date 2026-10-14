@@ -1,4 +1,5 @@
 import HERO_BANNER from '../assets/brand/Banner.png';
+import CONTACT_PHOTO from '../assets/brand/contact.jpg';
 import ABOUT_PHOTO from '../assets/brand/about-medical-equipment.jpg';
 import { FeatureGroup, VOLTA_FEATURE_GROUPS, VOLTA_KEY_HIGHLIGHTS, VSONIC_FEATURE_GROUPS, VSONIC_KEY_HIGHLIGHTS } from './voltaFeatures';
 import IMG_VOLTA_NOTEPAD_345 from '../assets/products/volta-notepad-345.jpeg';
@@ -68,7 +69,7 @@ const IMG_CLINIC = '/src/assets/images/hero_ultrasound_clinic_1791666200123.jpg'
 
 export const HERO_IMAGE = HERO_BANNER;
 export const ABOUT_IMAGE = ABOUT_PHOTO;
-export const CONTACT_IMAGE = IMG_TROLLEY;
+export const CONTACT_IMAGE = CONTACT_PHOTO;
 
 export const PRODUCTS_CATALOGUE: Product[] = [
   {
