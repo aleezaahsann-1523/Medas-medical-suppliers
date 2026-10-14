@@ -1,5 +1,6 @@
+
 import React from 'react';
-import logoSrc from '../assets/brand/logo.png';
+import logo from "../assets/brand/medas-logo.png";
 
 interface BrandLogoProps {
   variant?: 'light' | 'dark';
@@ -8,10 +9,11 @@ interface BrandLogoProps {
 
 /**
  * Official Medas Medical Suppliers logo.
- * The logo artwork has dark text, so on dark backgrounds (variant="light")
- * it is placed on a white rounded chip to stay readable.
  */
-export const BrandLogo: React.FC<BrandLogoProps> = ({ variant = 'dark', className = '' }) => {
+export const BrandLogo: React.FC<BrandLogoProps> = ({
+  variant = 'dark',
+  className = '',
+}) => {
   const isLight = variant === 'light';
 
   return (
@@ -21,7 +23,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({ variant = 'dark', classNam
       } ${className}`}
     >
       <img
-        src={logoSrc}
+        src={logo}
         alt="Medas Medical Suppliers"
         className={isLight ? 'h-10 w-auto' : 'h-10 sm:h-12 w-auto'}
       />
